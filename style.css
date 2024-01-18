@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c32020;
+    color: #ffffff;
+    text-align: right;
+    padding: 1em;
+}
+
+#recipe-list-ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recipe-item {
+    width: 150px; /* Adjust the width as needed */
+    margin: 1em;
+    text-align: center;
+}
+
+.recipe-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
+
+.recipe-link {
+    text-decoration: none;
+    color: #b94848;
+}

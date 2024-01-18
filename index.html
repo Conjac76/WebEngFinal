@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Book</h1>
+    </header>
+    
+    <main id="recipe-list">
+        <ul id="recipe-list-ul">
+            <li class="recipe-item" onclick="navigateToIngredientsPage(['Pasta', 'Eggs', 'Bacon', 'Parmesan', 'Black pepper'])">
+                <a href="#" class="recipe-link">
+                    <img src="https://i0.wp.com/www.onceuponachef.com/images/2020/06/Margherita-Pizza-scaled.jpg?resize=1440%2C2048&ssl=1" alt="Pasta Carbonara">
+                    <h2>Pasta Carbonara</h2>
+                </a>
+            </li>
+            <li class="recipe-item" onclick="navigateToIngredientsPage(['Chicken', 'Fettuccine', 'Heavy cream', 'Parmesan', 'Garlic'])">
+                <a href="#" class="recipe-link">
+                    <img src="https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-V3.jpg" alt="Chicken Alfredo">
+                    <h2>Chicken Alfredo</h2>
+                </a>
+            </li>
+            <li class="recipe-item" onclick="navigateToIngredientsPage(['Pizza dough', 'Tomatoes', 'Fresh mozzarella', 'Basil', 'Olive oil'])">
+                <a href="#" class="recipe-link">
+                    <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?quality=90&webp=true&resize=440,400" alt="Margherita Pizza">
+                    <h2>Margherita Pizza</h2>
+                </a>
+            </li>
+            <li class="recipe-item" onclick="navigateToIngredientsPage(['Lasagna noodles', 'Ground beef', 'Ricotta cheese', 'Mozzarella cheese', 'Tomato sauce'])">
+                <a href="#" class="recipe-link">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/classic-lasagna-index-6430792059032.jpg?crop=0.888888888888889xw:1xh;center,top" alt="Classic Lasagna">
+                    <h2>Classic Lasagna</h2>
+                </a>
+            </li>
+            <li class="recipe-item" onclick="navigateToIngredientsPage(['Salmon fillet', 'Lemon', 'Dill', 'Olive oil', 'Garlic'])">
+                <a href="#" class="recipe-link">
+                    <img src="https://www.acouplecooks.com/wp-content/uploads/2020/05/Grilled-Salmon-015-1.jpg" alt="Grilled Salmon">
+                    <h2>Grilled Salmon</h2>
+                </a>
+            </li>
+        </ul>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
